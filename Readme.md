@@ -39,6 +39,21 @@ git log --format=oneline
 git log --oneline
 git log --oneline --graph --decorate
 ```
+
+## Git Show
+```
+git show 4dde
+git show HEAD
+git show HEAD^
+git show HEAD^^^
+git show HEAD~5
+```
+
+## Git blame
+```
+git blame Readme.md
+```
+
 ## Git ls-tree
 ```
 git ls-tree HEAD
@@ -68,4 +83,8 @@ git rm --cached <filename>
 ```
 git diff
 git diff --cached
+git diff 
+git diff 9f53..4dde
+git diff HEAD..HEAD~2 (Move back)
+git diff HEAD~2..HEAD (Move forward)
 ```
