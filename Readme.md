@@ -101,3 +101,26 @@ git revert HEAD^ -e
 git revert HEAD^ --no-edit
 git revert HEAD^ --no-commit
 ```
+
+## Git branch
+```
+git branch
+git checkout -b <branch-name>
+git checkout branch
+get checkout -m <oldname> <newname>
+git switch <branch-name>
+git checkout <branch-to-merge>
+git merge <target-to-merge>
+git branch -D <branch-name>
+```
+
+## Git Submodule
+```
+git submodule add <Git-URL> <Sub-Folder>
+git submodule init
+git submodule update
+Git submodule update —init —recursive
+git submodule deinit <sub-module>
+Git submodule sync —recursive
+Git config —global push.recurseSubmodules on-demand
+```
