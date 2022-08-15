@@ -39,6 +39,21 @@ git log --format=oneline
 git log --oneline
 git log --oneline --graph --decorate
 ```
+
+## Git show
+```
+git show 6b36
+git show HEAD
+git show HEAD^
+git show HEAD^^^
+git show HEAD~5
+```
+
+## Git blame
+```
+git blame Readme.md
+```
+
 ## Git ls-tree
 ```
 git ls-tree HEAD
@@ -70,4 +85,19 @@ git diff
 git diff 9f53..4dde
 git diff HEAD..HEAD~2 (Move back)
 git diff HEAD~2..HEAD (Move forward)
+```
+
+## Git reset
+```
+git reset --soft HEAD^
+git reset --mixed HEAD^
+git reset --hard HEAD^
+```
+
+## Git revert
+```
+git revert HEAD^
+git revert HEAD^ -e
+git revert HEAD^ --no-edit
+git revert HEAD^ --no-commit
 ```
