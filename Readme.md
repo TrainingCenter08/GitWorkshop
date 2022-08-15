@@ -1,17 +1,17 @@
-# Git Command 2
+# Git Commands
 ## Configuration Level
-### Local
+### Local Configuration
 ```
 git config --local user.name="Phanupong"
 git config --local user.email="phanupong.pe@gmail.com"
 ```
 
-### Global
+### Global Configulation
 ```
 git config --global core.editor "code --new-window --wait"
 ```
 
-### System
+### System Configuration
 ```
 git config --system -e
 ```
@@ -66,6 +66,8 @@ git rm --cached <filename>
 
 ## Git diff
 ```
-git diff
-git diff --cached
+git diff 
+git diff 9f53..4dde
+git diff HEAD..HEAD~2 (Move back)
+git diff HEAD~2..HEAD (Move forward)
 ```
