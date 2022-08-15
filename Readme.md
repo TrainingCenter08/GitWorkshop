@@ -39,3 +39,22 @@ git log --format=oneline
 git log --oneline
 git log --oneline --graph --decorate
 ```
+## Git ls-tree
+```
+git ls-tree HEAD
+git ls-tree main
+git ls-tree 13db
+```
+
+## Git add and commit
+```
+git add .
+git add Readme.md
+git commit -m "commit message"
+git commit -am "add and commit"
+git commit --amend
+git commit --amend -m "commit and add new message"
+git remote add origin <URL of remote repository>
+git remote -v
+```
+
