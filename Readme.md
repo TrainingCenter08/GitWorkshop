@@ -11,7 +11,6 @@ git config --local user.email="phanupong.pe@gmail.com"
 git config --global core.editor "code --new-window --wait"
 ```
 
-### System
 ```
 git config --system -e
 ```
